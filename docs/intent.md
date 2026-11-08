@@ -11,3 +11,10 @@
 **O que NÃO faz:** não paga boletos, não aprova pagamentos, não integra com ERP e não lê PDF escaneado.
 
 **Como saberei que funciona:** em um conjunto de 50 NFS-e fictícias, acerta 98% dos campos; nenhum valor ou CNPJ errado é gravado sem revisão humana; o tempo médio por nota cai de 10 minutos para menos de 1 minuto.
+
+
+**Valor estimado (V.E.N.D.A.):**
+- Tempo: 33 h/mês × R$ 40/h (estimativa) = cerca de R$ 16 mil por ano.
+- Custo da falha: um único pagamento duplicado ou ao fornecedor errado pode custar mais que metade desse valor. É o principal argumento.
+- Não elimina uma posição: a analista passa de digitar para revisar exceções.
+- A validar no discovery: frequência anual de pagamentos errados e custo real da hora.
