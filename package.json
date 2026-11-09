@@ -8,7 +8,8 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc -p .",
-    "eval": "tsx src/eval/run-eval.ts"
+    "eval": "tsx src/eval/run-eval.ts",
+    "dataset:pdf": "tsx scripts/render-nfse-pdfs.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "puppeteer-core": "^25.16.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.1.0"
