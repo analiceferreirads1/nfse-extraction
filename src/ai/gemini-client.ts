@@ -69,7 +69,7 @@ export interface GeminiClient {
   generate(request: GeminiRequest): Promise<GeminiResponse>;
 }
 
-const DEFAULT_MODEL = "gemini-2.5-flash";
+const DEFAULT_MODEL = "gemini-3.1-flash-lite";
 const DEFAULT_MAX_ATTEMPTS = 3;
 const DEFAULT_BASE_DELAY_MS = 1000;
 const REQUEST_TIMEOUT_MS = 30_000;
