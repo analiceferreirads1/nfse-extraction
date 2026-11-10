@@ -9,7 +9,8 @@
     "test": "vitest run",
     "typecheck": "tsc -p .",
     "eval": "tsx src/eval/run-eval.ts",
-    "dataset:pdf": "tsx scripts/render-nfse-pdfs.ts"
+    "dataset:pdf": "tsx scripts/render-nfse-pdfs.ts",
+    "try:ai": "node --env-file=.env --import tsx scripts/try-ai.ts"
   },
   "keywords": [],
   "author": "",
