@@ -1,7 +1,7 @@
 {
   "name": "nfse-extraction",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extração de NFS-e em PDF com regras, IA (Gemini) e eval com gate de acurácia",
   "directories": {
     "doc": "docs"
   },
