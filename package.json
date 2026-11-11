@@ -9,6 +9,7 @@
     "test": "vitest run",
     "typecheck": "tsc -p .",
     "eval": "node --env-file-if-exists=.env --import tsx src/eval/run-eval.ts",
+    "process": "node --env-file-if-exists=.env --import tsx src/cli/process-invoices.ts",
     "dataset:pdf": "tsx scripts/render-nfse-pdfs.ts",
     "try:ai": "node --env-file=.env --import tsx scripts/try-ai.ts"
   },
