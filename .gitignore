@@ -11,3 +11,6 @@ dist/
 
 # Real invoices must never be committed
 data/real/
+
+# Saída do processamento (contém dados de notas)
+/output/
